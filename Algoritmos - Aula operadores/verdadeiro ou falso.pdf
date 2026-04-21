@@ -1,0 +1,14 @@
+a=10 b=5 c=7 d=3 f=5
+
+a)A>C | 10 > 7 true
+b)A<B | 10<5 false
+c)A==D | 10==7 false
+d)A!=C | 10!=7 true
+e)B<=F | 5<=5 true
+f)A>=D | 10>=3 false
+g)A>B E C>D | 10>5 E 7>3 true
+h)C>B OU A==D | 7>5 OU 10==3 true
+i)C==B OU A==D | 7==5 OU 10==3 false 
+j) !(A==D) | !(10==3) true
+k) !(B==F) | !(5==5) false
+L) C>B E A==D | 7>7 OU 10==3 false
